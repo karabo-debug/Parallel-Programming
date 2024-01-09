@@ -1,0 +1,125 @@
+commit 236260760717df040cb26ed810e2aaeda4c966a6
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sun Aug 13 10:12:36 2023 +0200
+
+    Add optimizations for larger values
+
+commit 2a03165546c59d51338d71516493e3fadc4fa2dc
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sat Aug 12 21:21:08 2023 +0200
+
+    optimize parallel execution by implementing SEQUENTIAL CUTOFF for different problem sizes
+
+commit 082cd32241a3bfc96b15d64f0d9419c0685ccbbd
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 16:51:04 2023 +0200
+
+    Change the low index to zero
+
+commit eab8b5f58bc271b274c872b4e170cc40ff0367fe
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 02:04:55 2023 +0200
+
+    Use the Rosenbrock function to validate the new parallel code
+
+commit 383f6c96a9dd9e58604d4c05b037f5404b9a7273
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 01:41:08 2023 +0200
+
+    Add all final files to git
+
+commit f515ada8c0edee285aaee32bd711b847e6a70256
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 01:32:13 2023 +0200
+
+    Add improved/modified MonteCarloMinizationParallel code
+
+commit a7c840ba69e3a08118ace1cbca14e37b6d3d96a9
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 01:31:37 2023 +0200
+
+    Add improved/modified MonteCarloMinizationParallel code
+
+commit aef4f47f0d951c0f08b89b24237323f4001bebab
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Fri Aug 11 00:26:42 2023 +0200
+
+    Add MonteCarloMinimizationParallel in the project and use the ForkJoinPool object
+
+commit 16adc64b2e39fcba9cf577f77a5b149842ab587c
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Thu Aug 10 23:48:09 2023 +0200
+
+    Add the compute function(SearchParallel.java)
+
+commit 4b55bd294bfff739bd0dd69d2288c7bc81546389
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Thu Aug 10 22:26:46 2023 +0200
+
+    Add constructo into SearchParallel program
+
+commit 49631fd0f23f4cb4f3b1c4555ba64d2a6bdbc266
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Wed Aug 9 20:35:08 2023 +0200
+
+    Use the Rosenbrock function for validation
+
+commit 7cab3f5487e0be4382fab9d96bd618eca2fc8c81
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Tue Aug 8 01:32:15 2023 +0200
+
+    Add all the necessary comments
+
+commit 75a5cc622ecf0444de686e421a044a23b9c90d1d
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Mon Aug 7 14:17:21 2023 +0200
+
+    include necessary objects to perform Monte Carlo minimization using parallel processing with the Fork-Join framework
+
+commit 523294e6c19db37943da150d3e60bc9599a7d865
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Mon Aug 7 14:02:03 2023 +0200
+
+    Add the recursive compute() method
+
+commit 70d92e633621c9df3aca0ba4d7bdb890d0e09dd2
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Mon Aug 7 12:57:17 2023 +0200
+
+    Use MonteCarloMinimization for parallelization(extend RecursiveTask<Integer>)
+
+commit 90848f2ce3261da033483cf14dac2dc658f56108
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Mon Aug 7 12:34:54 2023 +0200
+
+    Revert back to the Search.java original version
+
+commit 6069671e376fe1f576c8af30ab5f2f8955f7b2d7
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sat Aug 5 16:42:13 2023 +0200
+
+    change the local_min variable use the join() method
+
+commit d9df3468600baf74373052506a353118f4571eee
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sat Aug 5 16:33:26 2023 +0200
+
+    Use the ForkJoinPool to submit an array of tasks in the pool
+
+commit 03a83231fc0b890b2f7a21ca7c15cd998bad6caf
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sat Aug 5 16:18:54 2023 +0200
+
+    edit MonteCarloMinimization(import necessary fork-join framework libraries
+
+commit 8cfbac5920f793488bd9e46f870aff268a0dbae7
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Sat Aug 5 16:06:50 2023 +0200
+
+    Change Search.java find valleys method to compute method (import necessary RecursiveTask)
+
+commit 18f8820dfb0f1a6041c8ec57f8c4c39134da62be
+Author: Lehlohonolo Mosikili <mskleh001@myuct.ac.za>
+Date:   Wed Aug 2 16:39:03 2023 +0200
+
+    Serial version of the code
